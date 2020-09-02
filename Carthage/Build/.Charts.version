@@ -1,0 +1,9 @@
+{
+  "commitish" : "v3.3.0",
+  "Mac" : [
+    {
+      "name" : "Charts",
+      "hash" : "4adf57dbd9a624e4a9df428e89acee7db1fe487cdbb5c96e74c69b5bb70400e0"
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0908368B22A7D1D60061869E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0908368A22A7D1D60061869E /* AppDelegate.swift */; };
+		0908368D22A7D1D60061869E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0908368C22A7D1D60061869E /* MainVC.swift */; };
+		0908368F22A7D1D70061869E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0908368E22A7D1D70061869E /* Assets.xcassets */; };
+		0908369222A7D1D70061869E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0908369022A7D1D70061869E /* Main.storyboard */; };
+		090D2201231B7DED0063E415 /* libFFTConvolver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 090D2200231B7DED0063E415 /* libFFTConvolver.a */; };
+		090D2204231B81B60063E415 /* HalfPolarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D2202231B81B60063E415 /* HalfPolarView.swift */; };
+		090D2205231B81B60063E415 /* HalfPolarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090D2203231B81B60063E415 /* HalfPolarView.xib */; };
+		094AD3192317CF12005AFBFB /* libaxdanalyz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD3182317CF12005AFBFB /* libaxdanalyz.a */; };
+		09525F8022E2056A00D1875E /* PolarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09525F7F22E2056900D1875E /* PolarView.swift */; };
+		09525F8222E2059000D1875E /* PolarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09525F8122E2059000D1875E /* PolarView.xib */; };
+		09525F8422E2090D00D1875E /* PolarOverviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09525F8322E2090D00D1875E /* PolarOverviewVC.swift */; };
+		09525F8A22E8685000D1875E /* CatmullRom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09525F8922E8685000D1875E /* CatmullRom.swift */; };
+		09525FA222F05C5600D1875E /* libGetColoration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09525FA122F05C5600D1875E /* libGetColoration.a */; };
+		09525FAC22F0783C00D1875E /* WaveOptionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09525FAB22F0783C00D1875E /* WaveOptionsView.xib */; };
+		09525FAE22F07A6600D1875E /* WaveOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09525FAD22F07A6600D1875E /* WaveOptionsView.swift */; };
+		09525FB022F080E100D1875E /* libwaveio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09525FAF22F080E100D1875E /* libwaveio.a */; };
+		09587D382313FF6E00D72372 /* Deconvolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09587D372313FF6E00D72372 /* Deconvolver.swift */; };
+		096D03EE22B3D6EA002B2256 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D03ED22B3D6EA002B2256 /* WindowController.swift */; };
+		096D03F022B3DB5E002B2256 /* RemoteAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D03EF22B3DB5E002B2256 /* RemoteAnalyzer.swift */; };
+		096D03F322B3E9E5002B2256 /* BRIRAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D03F222B3E9E5002B2256 /* BRIRAnalysis.swift */; };
+		096D03F622B7A368002B2256 /* SpeakerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096D03F522B7A368002B2256 /* SpeakerView.xib */; };
+		096D03F822B7A44D002B2256 /* SpeakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D03F722B7A44D002B2256 /* SpeakerView.swift */; };
+		096D040022B7E6A4002B2256 /* BRIRAnalysisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D03FF22B7E6A4002B2256 /* BRIRAnalysisVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		096D03EA22B3B386002B2256 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0908368722A7D1D60061869E /* AXDAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXDAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0908368A22A7D1D60061869E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0908368C22A7D1D60061869E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		0908368E22A7D1D70061869E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0908369122A7D1D70061869E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0908369322A7D1D70061869E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090D2200231B7DED0063E415 /* libFFTConvolver.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFFTConvolver.a; sourceTree = "<group>"; };
+		090D2202231B81B60063E415 /* HalfPolarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfPolarView.swift; sourceTree = "<group>"; };
+		090D2203231B81B60063E415 /* HalfPolarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HalfPolarView.xib; sourceTree = "<group>"; };
+		094AD3172317CF0B005AFBFB /* axdanalyz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = axdanalyz.h; sourceTree = "<group>"; };
+		094AD3182317CF12005AFBFB /* libaxdanalyz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libaxdanalyz.a; sourceTree = "<group>"; };
+		09525F7F22E2056900D1875E /* PolarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarView.swift; sourceTree = "<group>"; };
+		09525F8122E2059000D1875E /* PolarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PolarView.xib; sourceTree = "<group>"; };
+		09525F8322E2090D00D1875E /* PolarOverviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarOverviewVC.swift; sourceTree = "<group>"; };
+		09525F8922E8685000D1875E /* CatmullRom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatmullRom.swift; sourceTree = "<group>"; };
+		09525F9722F0503000D1875E /* AXDAnalyzer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AXDAnalyzer-Bridging-Header.h"; sourceTree = "<group>"; };
+		09525FA122F05C5600D1875E /* libGetColoration.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGetColoration.a; sourceTree = "<group>"; };
+		09525FAB22F0783C00D1875E /* WaveOptionsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaveOptionsView.xib; sourceTree = "<group>"; };
+		09525FAD22F07A6600D1875E /* WaveOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveOptionsView.swift; sourceTree = "<group>"; };
+		09525FAF22F080E100D1875E /* libwaveio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwaveio.a; sourceTree = "<group>"; };
+		09587D372313FF6E00D72372 /* Deconvolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deconvolver.swift; sourceTree = "<group>"; };
+		096D03ED22B3D6EA002B2256 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		096D03EF22B3DB5E002B2256 /* RemoteAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAnalyzer.swift; sourceTree = "<group>"; };
+		096D03F222B3E9E5002B2256 /* BRIRAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRIRAnalysis.swift; sourceTree = "<group>"; };
+		096D03F522B7A368002B2256 /* SpeakerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpeakerView.xib; sourceTree = "<group>"; };
+		096D03F722B7A44D002B2256 /* SpeakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerView.swift; sourceTree = "<group>"; };
+		096D03FF22B7E6A4002B2256 /* BRIRAnalysisVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRIRAnalysisVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0908368422A7D1D60061869E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09525FB022F080E100D1875E /* libwaveio.a in Frameworks */,
+				090D2201231B7DED0063E415 /* libFFTConvolver.a in Frameworks */,
+				094AD3192317CF12005AFBFB /* libaxdanalyz.a in Frameworks */,
+				09525FA222F05C5600D1875E /* libGetColoration.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0908367E22A7D1D60061869E = {
+			isa = PBXGroup;
+			children = (
+				09525F9322F04F7E00D1875E /* include */,
+				09525F9122F04E7100D1875E /* lib */,
+				0908368922A7D1D60061869E /* AXDAnalyzer */,
+				0908368822A7D1D60061869E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0908368822A7D1D60061869E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0908368722A7D1D60061869E /* AXDAnalyzer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0908368922A7D1D60061869E /* AXDAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				0908369322A7D1D70061869E /* Info.plist */,
+				0908368E22A7D1D70061869E /* Assets.xcassets */,
+				0908369022A7D1D70061869E /* Main.storyboard */,
+				0908368A22A7D1D60061869E /* AppDelegate.swift */,
+				096D03ED22B3D6EA002B2256 /* WindowController.swift */,
+				096D03EF22B3DB5E002B2256 /* RemoteAnalyzer.swift */,
+				096D03F222B3E9E5002B2256 /* BRIRAnalysis.swift */,
+				09587D372313FF6E00D72372 /* Deconvolver.swift */,
+				0908368C22A7D1D60061869E /* MainVC.swift */,
+				09525F8322E2090D00D1875E /* PolarOverviewVC.swift */,
+				096D03FF22B7E6A4002B2256 /* BRIRAnalysisVC.swift */,
+				096D03F722B7A44D002B2256 /* SpeakerView.swift */,
+				096D03F522B7A368002B2256 /* SpeakerView.xib */,
+				09525F7F22E2056900D1875E /* PolarView.swift */,
+				09525F8122E2059000D1875E /* PolarView.xib */,
+				090D2202231B81B60063E415 /* HalfPolarView.swift */,
+				090D2203231B81B60063E415 /* HalfPolarView.xib */,
+				09525FAD22F07A6600D1875E /* WaveOptionsView.swift */,
+				09525FAB22F0783C00D1875E /* WaveOptionsView.xib */,
+				09525F8922E8685000D1875E /* CatmullRom.swift */,
+				09525F9722F0503000D1875E /* AXDAnalyzer-Bridging-Header.h */,
+			);
+			path = AXDAnalyzer;
+			sourceTree = "<group>";
+		};
+		09525F9122F04E7100D1875E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				090D2200231B7DED0063E415 /* libFFTConvolver.a */,
+				094AD3182317CF12005AFBFB /* libaxdanalyz.a */,
+				09525FA122F05C5600D1875E /* libGetColoration.a */,
+				09525FAF22F080E100D1875E /* libwaveio.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		09525F9322F04F7E00D1875E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				094AD3172317CF0B005AFBFB /* axdanalyz.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0908368622A7D1D60061869E /* AXDAnalyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0908369722A7D1D70061869E /* Build configuration list for PBXNativeTarget "AXDAnalyzer" */;
+			buildPhases = (
+				0908368322A7D1D60061869E /* Sources */,
+				0908368422A7D1D60061869E /* Frameworks */,
+				0908368522A7D1D60061869E /* Resources */,
+				096D03EA22B3B386002B2256 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AXDAnalyzer;
+			productName = Insight3D;
+			productReference = 0908368722A7D1D60061869E /* AXDAnalyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0908367F22A7D1D60061869E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = AudioXD;
+				TargetAttributes = {
+					0908368622A7D1D60061869E = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0908368222A7D1D60061869E /* Build configuration list for PBXProject "AXDAnalyzer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0908367E22A7D1D60061869E;
+			productRefGroup = 0908368822A7D1D60061869E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0908368622A7D1D60061869E /* AXDAnalyzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0908368522A7D1D60061869E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096D03F622B7A368002B2256 /* SpeakerView.xib in Resources */,
+				0908368F22A7D1D70061869E /* Assets.xcassets in Resources */,
+				090D2205231B81B60063E415 /* HalfPolarView.xib in Resources */,
+				0908369222A7D1D70061869E /* Main.storyboard in Resources */,
+				09525FAC22F0783C00D1875E /* WaveOptionsView.xib in Resources */,
+				09525F8222E2059000D1875E /* PolarView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0908368322A7D1D60061869E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09525F8A22E8685000D1875E /* CatmullRom.swift in Sources */,
+				096D03F022B3DB5E002B2256 /* RemoteAnalyzer.swift in Sources */,
+				090D2204231B81B60063E415 /* HalfPolarView.swift in Sources */,
+				09525F8022E2056A00D1875E /* PolarView.swift in Sources */,
+				09587D382313FF6E00D72372 /* Deconvolver.swift in Sources */,
+				0908368D22A7D1D60061869E /* MainVC.swift in Sources */,
+				09525F8422E2090D00D1875E /* PolarOverviewVC.swift in Sources */,
+				096D03F822B7A44D002B2256 /* SpeakerView.swift in Sources */,
+				096D03EE22B3D6EA002B2256 /* WindowController.swift in Sources */,
+				096D03F322B3E9E5002B2256 /* BRIRAnalysis.swift in Sources */,
+				0908368B22A7D1D60061869E /* AppDelegate.swift in Sources */,
+				09525FAE22F07A6600D1875E /* WaveOptionsView.swift in Sources */,
+				096D040022B7E6A4002B2256 /* BRIRAnalysisVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0908369022A7D1D70061869E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0908369122A7D1D70061869E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0908369522A7D1D70061869E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0908369622A7D1D70061869E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0908369822A7D1D70061869E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HT8HKSQRYH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = AXDAnalyzer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.audioxd.AXDAnalyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/AXDAnalyzer/AXDAnalyzer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0908369922A7D1D70061869E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HT8HKSQRYH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = AXDAnalyzer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.audioxd.AXDAnalyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/AXDAnalyzer/AXDAnalyzer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0908368222A7D1D60061869E /* Build configuration list for PBXProject "AXDAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0908369522A7D1D70061869E /* Debug */,
+				0908369622A7D1D70061869E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0908369722A7D1D70061869E /* Build configuration list for PBXNativeTarget "AXDAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0908369822A7D1D70061869E /* Debug */,
+				0908369922A7D1D70061869E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0908367F22A7D1D60061869E /* Project object */;
+}

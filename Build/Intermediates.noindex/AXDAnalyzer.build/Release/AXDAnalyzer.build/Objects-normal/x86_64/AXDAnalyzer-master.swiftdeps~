@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "61222055204af5ca97bca147e8db219d"
+build_time: [1599063027, 71173000]
+inputs:
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/CatmullRom.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/RemoteAnalyzer.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/HalfPolarView.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/PolarView.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/Deconvolver.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/MainVC.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/PolarOverviewVC.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/SpeakerView.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/WindowController.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/BRIRAnalysis.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/WaveOptionsView.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-Analyzer/AXDAnalyzer/BRIRAnalysisVC.swift": [9223372036, 854775807]

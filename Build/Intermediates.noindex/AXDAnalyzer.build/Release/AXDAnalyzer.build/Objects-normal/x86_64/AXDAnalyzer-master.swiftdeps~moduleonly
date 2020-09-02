@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "97b41d41186d371c4f5e38853b1cc180"
+build_time: [1599063634, 424169000]
+inputs:
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/CatmullRom.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/RemoteAnalyzer.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/HalfPolarView.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/PolarView.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/Deconvolver.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/MainVC.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/PolarOverviewVC.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/SpeakerView.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/WindowController.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/BRIRAnalysis.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/WaveOptionsView.swift": [9223372036, 854775807]
+  "/Users/malekith/Desktop/DSS/AXD-3DLocalizer/AXDAnalyzer/BRIRAnalysisVC.swift": [9223372036, 854775807]
