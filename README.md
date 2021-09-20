@@ -1,4 +1,4 @@
-# AXD3DLocalizer
+# 3DLocalizer
 
 
 ## Localisation latérale de flux audios binauraux en temps réel
@@ -145,7 +145,7 @@ Individuellement un neurones est automate appliquant une fonction (dite d’acti
 * Les neurones de traitement, qui appliquent une opération de convolution sur le signal d’entrée. 
 * Les neurones de poolling, qui réduisent la taille du signal d’entrée en faisant la somme ou la moyenne de plusieurs sorties. 
 * Les neurones de correction (Dite ReLU, pour rectified linear unit), qui accentuent la non-linéarité de l’espace des données en appliquant une fonction de la forme : f(x) = max(0, x). 
-* Une couche « complètement connectées » dans lesquelles chaque neurones prend en entrée les sorties de tous les autres neurones de la couche. On peut ajouter une couche de Loss, normalisant les poids des neurones d’une partie du réseau dans le but d’empêcher celui-ci d’être trop spécifiquement entrainé à reconnaitre les données d’entrainement, ce qui pourrait nuire à sa capacité de reconnaitre de nouvelles données.
+* Une couche « complètement connectées » dans lesquelles chaque neurones prend en entrée les sorties de tous les autres neurones de la couche.On peut ajouter une couche de Loss, normalisant les poids des neurones d’une partie du réseau dans le but d’empêcher celui-ci d’être trop spécifiquement entrainé à reconnaitre les données d’entrainement, ce qui pourrait nuire à sa capacité de reconnaitre de nouvelles données.
 
 Les couches de convolution et de pooling découpent le signal d’entrée en « fenêtre » tendis que la couche connectée est la partie computationnelle du réseau traite cette fenêtre. Ce découpage, en plus de permettre des temps de calculs beaucoup plus courts, permet également de conserver la structure du signal en traitant ensemble les données proches spatialement (les pixels contigües d’une images ou les samples adjacents d’une piste audio).
 
@@ -187,4 +187,4 @@ La détection de sources multiples est un problème déjà traité dans la litt�
 
 Si les haut-parleurs sont parfaitement synchronisés, y compris dans le délai induit par leur distance à l’auditeur, alors ils seront analysés comme une seule source dite "fantôme", résultant du mixage acoustique des deux signaux émis. Par exemple, une paire d’enceintes gauche et droite placées symétriquement à l’auditeur et émettant le même signal créent une voix centrale fantôme, perçue comme telle. 
 
-La solution Machine Learning quand à elle peut être adaptée, bien que cela demande un temps d'entrainement et d'affinement de la base bien plus important que ce qui a été réalisé à ce jour, à l'identification de l'élévation de la source sonore. En théorie, comme nous l'avons vu, la localisation de la distance de la source est également du domaine du possible, mais le problème ici réside dans l'inexistence de base de donnée adaptées à l'entraînement d'une telle architecture. 
+La solution Machine Learning quand à elle peut être adaptée, bien que cela demande un temps d'entrainement et d'affinement de la base bien plus important que ce qui a été réalisé à ce jour, à l'identification de l'élévation de la source sonore.En théorie, comme nous l'avons vu, la localisation de la distance de la source est également du domaine du possible, mais le problème ici réside dans l'inexistence de base de donnée adaptées à l'entraînement d'une telle architecture. 
